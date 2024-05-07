@@ -1,3 +1,3 @@
 # Yasir's Sandbox
 
-Setting up a place where I can put all my stuff. This is the frontend (react). I will connected it to my flask api and start hosting all my python shenanigans.
+Setting up a place where I can put all my stuff. This is the frontend (react). I will connect it to my flask api and start hosting all my python shenanigans.
