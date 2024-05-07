@@ -5,7 +5,7 @@ import { Flex, Text, Tabs, Box, Container, Section } from '@radix-ui/themes';
 export default function Flask() {
     const [calc, setCalc] = useState('Loading...');
     useEffect(() => {
-      axios.get('http://ec2-3-93-10-55.compute-1.amazonaws.com:5000/').then((res)=>{
+      axios.get('https://ec2-3-93-10-55.compute-1.amazonaws.com/').then((res)=>{
       setCalc(res.data)
     })
     }, [])
