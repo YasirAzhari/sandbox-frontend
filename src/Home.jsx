@@ -36,7 +36,7 @@ export default function Home() {
             </Box>
             
         </Grid>
-        <Box height={'100px'}></Box>
+        <Box height={'300px'}></Box>
         <img src={fang} width={'100%'}></img>
     </>
   )

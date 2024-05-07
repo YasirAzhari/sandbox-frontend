@@ -2,12 +2,13 @@ import '@radix-ui/themes/styles.css';
 import { Theme, ThemePanel } from '@radix-ui/themes';
 import { Flex, Text, Tabs, Box, Container, Section } from '@radix-ui/themes';
 import Home from './Home';
+import Flask from './Flask';
 
 function App() {
 
   return (
     <>
-      <Theme appearance="dark" accentColor="gray">
+      <Theme accentColor="gray">
     
         <Flex direction="column" gap="1">
 
@@ -15,7 +16,7 @@ function App() {
             <Container size={'4'}>
               <Tabs.List>
                 <Tabs.Trigger value="Home">Home</Tabs.Trigger>
-                <Tabs.Trigger value="About me">About me</Tabs.Trigger>
+                <Tabs.Trigger value="Flask test">Flask Test</Tabs.Trigger>
               </Tabs.List>
             
               <Box pt="3">
@@ -25,14 +26,13 @@ function App() {
                   </Section>
                 </Tabs.Content>
 
-                <Tabs.Content value="About me">
-                  <Text size="2">Access and update your documents.</Text>
+                <Tabs.Content value="Flask test">
+                  <Flask/>
                 </Tabs.Content>
               </Box>
             </Container>
           </Tabs.Root>
         </Flex>
-        <ThemePanel/>
       </Theme>
     </>
   )
